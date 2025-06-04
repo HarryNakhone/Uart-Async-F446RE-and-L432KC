@@ -1,14 +1,12 @@
-# Motor Control on Zephyr RTOS
+# Servomotor on Zephyr RTOS
 
-Here is how you can run a motor using Zephyr RTOS
+Here is how you can run a servo motor using Zephyr RTOS
 
 ## Required Tools 
 
 STM32F4 Discovery
-L298n Motor Driver
-A couple of wheels (optional)
+I am using S51 but you can use the different ones
 A power supply, I used 5v
-Motors
 Jumper wires
 
 
