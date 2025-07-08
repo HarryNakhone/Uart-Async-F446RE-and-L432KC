@@ -1,0 +1,12 @@
+&usart1 {
+
+    status = "okay";
+    dmas = <&dma2 6 2 STM32_DMA_PERIPH_TX>,
+            <&dma2 7 2 STM32_DMA_PERIPH_RX>;
+    dma-names = "tx", "rx";
+    fifo-enable;
+};
+
+&dma2 {
+    status = "okay";
+};
